@@ -1,0 +1,1 @@
+"In order to get a token, you will have to open up your favorite browser, log in with whatever method you prefer and, when logged in, open up the developer console. Under the tab storage > cookies copy the value of the JWT (aka JSON Web Token) cookie."
