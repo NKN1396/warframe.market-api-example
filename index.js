@@ -1,5 +1,3 @@
-const fs = require("fs")	//Debugging only
-
 //Dependencies
 const axios = require("axios").default	//The HTTP request client
 
@@ -30,19 +28,19 @@ const nkn1396 = axios.create({
 	}
 })
 
-var payload = {
-}
-
 /*
+//Anonymous request
 market.get("/items")
 	.then(response => {
+		const fs = require("fs")
 		fs.writeFile("./items.json", JSON.stringify(response.data), {}, ()=>{})
 		console.log(response.data)
 	})
 	.catch(console.error)
 //*/
 
-//The following puts one Latron Prime Receiver on Warframe.market
+//Authorized request
+//The following puts one Latron Prime Receiver on warframe.market
 nkn1396.post("/profile/orders", {
 	"order_type": "sell",
 	"item_id": "54a73e65e779893a797fff4b",
