@@ -14,3 +14,11 @@ I was unfamiliar with this and it took me ages to figure out. The documentation 
 7. Select the cookie called "JWT" (that stands for JSON Web Token)
 8. Copy the value of the JWT cookie
 9. Paste the value into token.json (needs to be a string)
+
+## Documentation
+Official API documentation (because it's not easy to find):
+* [Link to the full v1 documentation](https://docs.google.com/document/d/1121cjBNN4BeZdMBGil6Qbuqse-sWpEXPpitQH5fb_Fo/)
+* [Link to a document](https://docs.google.com/document/d/13bbbbhe9nY4XvUG8yzUj-GaSVkQIqg1bPS5jpFg_wI0/) - This is just a document with a link to the first document, no need to click this. *Maybe this is where v2 docs will be in the future.*
+
+## Support
+I'm not gonna help you with this, you're on your own. The warframe.market Discord has a support channel though.
